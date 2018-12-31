@@ -1,0 +1,29 @@
+body {
+  background: #baac94 url(images/paw_print.jpg);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: small;
+  padding: 0px;
+  color: 303030;
+}
+header{
+  background: #baac94;
+}
+header ul {
+  list-style: none;
+  text-align: right;
+  padding: 0px;
+  margin: 0px;
+}
+header li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  text-align: right;
+  font-size: 15px;
+  margin-top: 0px;
+}
+#header-img, #header-info {
+  float: right;
+}
+#location, #hours {
+  font-weight: bold;
+}
