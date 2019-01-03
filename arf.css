@@ -7,6 +7,8 @@ body {
 }
 header{
   background: #baac94;
+  margin: 5px;
+  padding: 5px;
 }
 header ul {
   list-style: none;
@@ -24,6 +26,41 @@ header li {
 #header-img, #header-info {
   float: right;
 }
-#location, #hours {
+.bold {
   font-weight: bold;
+}
+#mainImage {
+  padding: 5px;
+  height: 100%;
+}
+#tableContainer {
+  display: table;
+  border-spacing: 5px;
+}
+#tableRow {
+  display: table-row;
+}
+nav {
+  background: #baac94;
+  display: table-cell;
+}
+nav ul {
+  list-style: none;
+  font-size: large;
+  padding: 5px;
+}
+nav li {
+  padding-top: 10px;
+}
+section {
+  background: #baac94;
+}
+section#body {
+  display: table-cell;
+  padding: 5px;
+}
+nav ul li.selected {
+  background-color: #71644d;
+  Padding: 0px;
+  color: #d1c2a9;
 }
